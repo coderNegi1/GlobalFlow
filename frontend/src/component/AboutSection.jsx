@@ -1,5 +1,6 @@
 import React from 'react';
-import CompanyImg from '../assets/Cargo Insurance.webp'; 
+import CompanyImg from '../assets/Cargo Insurance.webp';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -20,9 +21,12 @@ const About = () => {
             <p className="text-gray-700 leading-relaxed">
               We specialize in a wide range of services, including full truckload (FTL) and less than truckload (LTL) transportation, warehousing, and express delivery. We leverage modern technology to provide real-time tracking and transparent communication, giving you peace of mind.
             </p>
-            <a href="/about" className="inline-block px-6 py-3 text-white bg-blue-600 rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300">
+            <Link
+              to="/about"
+              className="inline-block px-6 py-3 text-white bg-blue-600 rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300"
+            >
               Learn More
-            </a>
+            </Link>
           </div>
           <div className="flex justify-center">
             <img

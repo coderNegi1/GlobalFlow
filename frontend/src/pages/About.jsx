@@ -1,5 +1,6 @@
 import React from "react";
 import CompanyImg from '../assets/Cargo Insurance.webp';
+import { Link } from 'react-router-dom';
 
 
 const About = () => {
@@ -103,9 +104,9 @@ const About = () => {
                 <p className="text-gray-700 mb-8">
                     Join our network and experience logistics solutions that drive growth and reliability.
                 </p>
-                <a href="#" className="inline-block px-8 py-4 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300">
+                <Link to="/contact" className="inline-block px-8 py-4 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300">
                     Contact Us
-                </a>
+                </Link>
             </section>
 
         </div>
