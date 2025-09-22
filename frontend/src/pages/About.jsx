@@ -39,10 +39,10 @@ const About = () => {
                             We offer full truckload (FTL), less-than-truckload (LTL), warehousing, and express delivery services with real-time tracking and transparent communication.
                         </p>
                         <a
-                            href="#"
+                            href="/contact"
                             className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300"
                         >
-                            Learn More
+                            Contact Us
                         </a>
                     </div>
 

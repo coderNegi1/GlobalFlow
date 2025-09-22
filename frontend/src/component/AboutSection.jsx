@@ -20,7 +20,7 @@ const About = () => {
             <p className="text-gray-700 leading-relaxed">
               We specialize in a wide range of services, including full truckload (FTL) and less than truckload (LTL) transportation, warehousing, and express delivery. We leverage modern technology to provide real-time tracking and transparent communication, giving you peace of mind.
             </p>
-            <a href="#" className="inline-block px-6 py-3 text-white bg-blue-600 rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300">
+            <a href="/about" className="inline-block px-6 py-3 text-white bg-blue-600 rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300">
               Learn More
             </a>
           </div>
