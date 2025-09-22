@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: url("/world-map-grid.svg") no-repeat center center fixed;
+  background-size: cover;  
+}
