@@ -47,14 +47,14 @@ const Navbar = () => {
       <div className="container mx-auto max-w-7xl flex justify-between items-center  px-4">
         {/* Logo */}
         <div className="flex items-center">
-          {/* Company Logo */}
-          <img
-            src={Logo}
-            alt="GlobalFlow Logo"
-            className=" h-[80px] object-contain mr-2"
-          />
-
-          
+          {/* Company Logo with Home Link */}
+          <Link to="/">
+            <img
+              src={Logo}
+              alt="GlobalFlow Logo"
+              className="h-[80px] object-contain mr-2 cursor-pointer"
+            />
+          </Link>
         </div>
 
 

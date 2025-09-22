@@ -1,5 +1,6 @@
 import React from 'react';
 import { Mail, Phone, MapPin, Twitter, Facebook } from 'lucide-react';
+import { Link } from "react-router-dom";
 import Logo from '../assets/LOGO_GLOBAL_FLOW.png';
 
 
@@ -12,7 +13,13 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center mb-4">
-              <img src={Logo} alt="GlobalFlow Logo" className=" h-[70px] mr-2" />
+              <Link to="/">
+                <img
+                  src={Logo}
+                  alt="GlobalFlow Logo"
+                  className="h-[70px] mr-2 cursor-pointer"
+                />
+              </Link>
             </div>
             <p className="text-sm">
               The fastest and most efficient logistics solutions worldwide for all your cargo needs.
@@ -72,7 +79,7 @@ const Footer = () => {
             <a href="https://yourwebsite.com" target="_blank" rel="noopener noreferrer" className="underline ml-1">
               Prashant Negi
             </a></p>
-          
+
         </div>
 
       </footer>

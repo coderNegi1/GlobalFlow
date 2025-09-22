@@ -18,8 +18,8 @@ export const freightData = {
   ocean: {
     title: "Sea Freight",
     breadcrumb: "Home / Sea Freight",
-    heroImageUrl: "path/to/sea-freight-hero.jpg",
-    mainImageUrl: "path/to/sea-freight-main.jpg",
+    heroImageUrl: cargoShip,
+    mainImageUrl: cargoShip,
     mainTitle: "Reliable and express logistics transport solutions that save your time!",
     description: "We provide very competitive rates on full container load (FCL) and less-than-container load (LCL) shipments. Our expert team ensures timely transit, proper documentation, and flexible options for import and export needs.",
     quote: "Flexible, reliable sea freight solutions for all cargo types and industries.",
