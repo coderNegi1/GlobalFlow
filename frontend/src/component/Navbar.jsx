@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, Phone, Twitter, Facebook, Menu, X } from 'lucide-react';
-import Logo from '../assets/LOGO_GLOBAL_FLOW.png';
+import Logo from '../assets/LOGO_GLOBAL_FLOW_main.png';
 
 
 
