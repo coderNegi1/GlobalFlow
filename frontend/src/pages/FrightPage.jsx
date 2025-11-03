@@ -24,8 +24,8 @@ const FreightPage = () => {
             >
                 <div className="absolute inset-0 bg-blue-900 bg-opacity-50 flex items-center p-8 text-white">
                     <div className="container mx-auto">
-                        <h1 className="text-4xl md:text-6xl font-bold">{data.title}</h1>
-                        <p className="mt-2 text-sm md:text-base">{data.breadcrumb}</p>
+                        <h1 className="text-4xl md:text-6xl font-bold font-display">{data.title}</h1>
+                        <p className="mt-2 text-sm md:text-base font-sans">{data.breadcrumb}</p>
                     </div>
                 </div>
             </div>
@@ -45,21 +45,21 @@ const FreightPage = () => {
                     {/* Right Side - Freight Info */}
                     <div className="md:w-1/2 flex flex-col gap-6">
                         <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
-                            <h2 className="text-3xl font-bold text-gray-800">{data.mainTitle}</h2>
+                            <h2 className="text-3xl font-bold text-gray-800 font-display">{data.mainTitle}</h2>
                             <p
-                                className="mt-4 text-gray-700 leading-relaxed text-justify"
+                                className="mt-4 text-gray-700 leading-relaxed text-justify font-sans"
                                 dangerouslySetInnerHTML={{ __html: data.description }}
                             ></p>
                         </div>
 
                         <div className="bg-blue-600 text-white p-6 rounded-xl shadow-md border-l-4 border-blue-800">
-                            <p className="font-semibold text-lg italic">"{data.quote}"</p>
+                            <p className="font-semibold text-lg italic font-serif">"{data.quote}"</p>
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div className="bg-gray-50 rounded-xl shadow p-6">
-                                <h3 className="text-xl font-semibold text-gray-800 mb-3">Services Offered</h3>
-                                <ul className="list-disc list-inside text-gray-600 space-y-1">
+                                <h3 className="text-xl font-semibold text-gray-800 mb-3 font-display">Services Offered</h3>
+                                <ul className="list-disc list-inside text-gray-600 space-y-1 font-sans">
                                     {data.servicesOffered.map((service, index) => (
                                         <li key={index}>{service}</li>
                                     ))}
@@ -67,8 +67,8 @@ const FreightPage = () => {
                             </div>
 
                             <div className="bg-gray-50 rounded-xl shadow p-6">
-                                <h3 className="text-xl font-semibold text-gray-800 mb-3">Industry Specific</h3>
-                                <ul className="list-disc list-inside text-gray-600 space-y-1">
+                                <h3 className="text-xl font-semibold text-gray-800 mb-3 font-display">Industry Specific</h3>
+                                <ul className="list-disc list-inside text-gray-600 space-y-1 font-sans">
                                     {data.industries.map((industry, index) => (
                                         <li key={index}>{industry}</li>
                                     ))}

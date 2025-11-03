@@ -2,13 +2,22 @@ import React from "react";
 
 
 const OurClients = () => {
-  const clientLogos = [
-    "https://cdn.worldvectorlogo.com/logos/netflix-3.svg",        // Netflix
-    "https://cdn.worldvectorlogo.com/logos/apple-1.svg",          // Apple
-    "https://cdn.worldvectorlogo.com/logos/intel.svg",            // Intel
-    "https://cdn.worldvectorlogo.com/logos/twitter-6.svg",        // Twitter
-    "https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg",  // LinkedIn
-
+    const clientLogos = [
+    "best_group.jpg",
+    "doble.jpg",
+    "hindware.jpg",
+    "eih_limited.jpg",
+    "itc_hotels.jpg",
+    "jindal.jpg",
+    "jubilant.jpg",
+    "kd.jpg",
+    "mahle.jpg",
+    "mark_exhaust.jpg",
+    "oberoi.jpg",
+    "omicron.jpg",
+    "shangri-la.jpg",
+    "ufles.jpg",
+    "valeo.jpg",
   ];
 
 

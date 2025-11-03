@@ -21,15 +21,15 @@ const Footer = () => {
                 />
               </Link>
             </div>
-            <p className="text-sm">
+            <p className="text-sm font-sans">
               The fastest and most efficient logistics solutions worldwide for all your cargo needs.
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-semibold text-lg text-white mb-4">Quick Links</h4>
-            <ul className="space-y-2 text-sm">
+            <h4 className="font-semibold text-lg text-white mb-4 font-display">Quick Links</h4>
+            <ul className="space-y-2 text-sm font-sans">
               <li><a href="#" className="hover:text-blue-500 transition-colors">Home</a></li>
               <li><a href="#" className="hover:text-blue-500 transition-colors">About Us</a></li>
               <li><a href="#" className="hover:text-blue-500 transition-colors">Services</a></li>
@@ -39,8 +39,8 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h4 className="font-semibold text-lg text-white mb-4">Contact Us</h4>
-            <ul className="space-y-3 text-sm">
+            <h4 className="font-semibold text-lg text-white mb-4 font-display">Contact Us</h4>
+            <ul className="space-y-3 text-sm font-sans">
               <li className="flex items-start">
                 <MapPin size={16} className="text-blue-500 mt-1 mr-2 flex-shrink-0" />
                 <span>
@@ -60,7 +60,7 @@ const Footer = () => {
 
           {/* Social Links */}
           <div>
-            <h4 className="font-semibold text-lg text-white mb-4">Follow Us</h4>
+            <h4 className="font-semibold text-lg text-white mb-4 font-display">Follow Us</h4>
             <div className="flex space-x-4">
               <a href="#" className="hover:text-blue-500 transition-colors">
                 <Twitter size={24} />
@@ -74,9 +74,9 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="mt-8 py-4 text-center text-sm bg-gray-900 text-white ">
-          <p>   &copy; 2025 GlobalFlow. All Rights Reserved.</p>
-          <p className='pt-1'>Designed by
-            <a href="https://yourwebsite.com" target="_blank" rel="noopener noreferrer" className="underline ml-1">
+          <p className="font-sans">   &copy; 2025 GlobalFlow. All Rights Reserved.</p>
+          <p className='pt-1 font-sans'>Designed by
+            <a href="https://yourwebsite.com" target="_blank" rel="noopener noreferrer" className="underline ml-1 font-display">
               Prashant Negi
             </a></p>
 

@@ -23,19 +23,19 @@ const Navbar = () => {
           <div className="flex items-center space-x-6">
             <div className="flex items-center space-x-2">
               <Mail size={16} />
-              <span>info@yourdomain.com</span>
+              <span className="font-medium">info@yourdomain.com</span>
             </div>
             <div className="flex items-center space-x-2">
               <Phone size={16} />
-              <span>+1 (234) 5678-9101</span>
+              <span className="font-medium">+1 (234) 5678-9101</span>
             </div>
           </div>
           <div className="flex items-center space-x-4">
-            <a href="#" className="flex items-center space-x-2 hover:text-blue-500 transition-colors">
+            <a href="#" className="flex items-center space-x-2 hover:text-blue-500 transition-colors font-medium">
               <Twitter size={16} />
               <span>Twitter</span>
             </a>
-            <a href="#" className="flex items-center space-x-2 hover:text-blue-700 transition-colors">
+            <a href="#" className="flex items-center space-x-2 hover:text-blue-700 transition-colors font-medium">
               <Facebook size={16} />
               <span>Facebook</span>
             </a>
@@ -64,7 +64,7 @@ const Navbar = () => {
             <Link
               key={link.name}
               to={link.path}
-              className="hover:text-blue-600 transition-colors font-semibold"
+              className="hover:text-blue-600 transition-colors font-semibold font-display"
             >
               {link.name}
             </Link>
@@ -85,7 +85,7 @@ const Navbar = () => {
           } transition-transform duration-300 ease-in-out md:hidden shadow-lg`}
       >
         <div className="p-4 flex justify-between items-center border-b border-gray-200">
-          <span className="text-xl font-bold">Menu</span>
+          <span className="text-xl font-bold font-display">Menu</span>
           <button onClick={() => setIsMobileMenuOpen(false)} className="text-gray-600 focus:outline-none">
             <X size={24} />
           </button>
@@ -96,7 +96,7 @@ const Navbar = () => {
               key={link.name}
               to={link.path}
               onClick={() => setIsMobileMenuOpen(false)}
-              className="hover:text-blue-600 transition-colors font-semibold"
+              className="hover:text-blue-600 transition-colors font-semibold font-display"
             >
               {link.name}
             </Link>

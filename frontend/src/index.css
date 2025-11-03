@@ -2,11 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 body {
   margin: 0;
   min-height: 100vh;
+  font-family: 'Inter', system-ui, sans-serif;
   background: url("/world-map-grid.svg") no-repeat center center fixed;
   background-size: cover;  
 }

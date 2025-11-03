@@ -37,11 +37,11 @@ const ServiceCard = ({ title, description, icon, link, bg }) => {
 
       <div className="relative z-10 p-6 flex flex-col justify-between h-full">
         <div className="flex justify-between items-center mb-4">
-          <h3 className="text-xl font-bold text-white group-hover:text-gray-900">{title}</h3>
+          <h3 className="text-xl font-bold text-white group-hover:text-gray-900 font-display">{title}</h3>
           <div className="text-blue-500 group-hover:rotate-12 transition-transform duration-300">{icon}</div>
         </div>
-        <p className="text-white group-hover:text-gray-800 leading-relaxed">{description}</p>
-        <span className="mt-4 inline-block text-blue-500 hover:text-blue-700 transition-colors duration-300 font-semibold text-sm cursor-pointer">
+        <p className="text-white group-hover:text-gray-800 leading-relaxed font-sans">{description}</p>
+        <span className="mt-4 inline-block text-blue-500 hover:text-blue-700 transition-colors duration-300 font-semibold text-sm cursor-pointer font-display">
           Learn More
         </span>
       </div>
@@ -69,8 +69,8 @@ const ServicesPage = () => {
 
         {/* Hero Section */}
         <section className="text-center py-24 md:py-32">
-          <h1 className="text-4xl md:text-6xl font-extrabold mb-4 text-white drop-shadow-lg">Our Comprehensive Services</h1>
-          <p className="text-lg md:text-xl max-w-3xl mx-auto font-light text-white/90 drop-shadow-md">
+          <h1 className="text-4xl md:text-6xl font-extrabold mb-4 text-white drop-shadow-lg font-display">Our Comprehensive Services</h1>
+          <p className="text-lg md:text-xl max-w-3xl mx-auto font-light text-white/90 drop-shadow-md font-sans">
             We offer a wide range of logistics and supply chain solutions tailored to meet your unique business needs.
           </p>
         </section>
@@ -78,8 +78,8 @@ const ServicesPage = () => {
         {/* Services Section */}
         <section className="container mx-auto max-w-6xl px-6 py-16">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-5xl font-bold text-white mb-4 drop-shadow-lg">What We Do</h2>
-            <p className="text-lg text-white/90 max-w-3xl mx-auto drop-shadow-sm">
+            <h2 className="text-3xl md:text-5xl font-bold text-white mb-4 drop-shadow-lg font-display">What We Do</h2>
+            <p className="text-lg text-white/90 max-w-3xl mx-auto drop-shadow-sm font-sans">
               From cargo management to express delivery, our services are designed to ensure seamless operations and timely results.
             </p>
           </div>
@@ -92,8 +92,8 @@ const ServicesPage = () => {
 
         {/* CTA Section */}
         <section className="text-center py-16 rounded-t-3xl">
-          <h2 className="text-3xl md:text-5xl font-bold mb-4 text-white drop-shadow-lg">Ready to Optimize Your Supply Chain?</h2>
-          <p className="font-light mb-8 text-white/90 drop-shadow-sm">
+          <h2 className="text-3xl md:text-5xl font-bold mb-4 text-white drop-shadow-lg font-display">Ready to Optimize Your Supply Chain?</h2>
+          <p className="font-light mb-8 text-white/90 drop-shadow-sm font-sans">
             Experience the GlobalFlow difference. Let's work together to drive your business forward.
           </p>
          

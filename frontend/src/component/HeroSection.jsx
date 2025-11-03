@@ -72,10 +72,10 @@ const HeroSection = () => {
         >
           <div className="absolute inset-0 bg-black opacity-50 z-20"></div>
           <div className="relative z-30 flex flex-col items-center justify-center h-full text-white text-center p-8">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">
+            <h1 className="text-4xl md:text-6xl font-bold mb-4 font-display">
               {slide.title}
             </h1>
-            <p className="max-w-3xl text-lg md:text-xl font-light">
+            <p className="max-w-3xl text-lg md:text-xl font-light font-sans">
               {slide.description}
             </p>
           </div>
